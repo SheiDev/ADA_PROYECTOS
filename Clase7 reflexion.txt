@@ -1,0 +1,54 @@
+1. La sintaxis (forma de escribir)
+Al escribir código en C, se nota que es un lenguaje estructurado y de bajo/medio nivel porque:
+Todo debe estar muy bien definido: tipos de datos (int), funciones, llaves {} y punto y coma ;.
+
+
+No permite “improvisar”: si falta algo, no compila.
+
+
+En comparación con JavaScript, C tiene más burocracia:
+En C se necesitan más líneas y más reglas para hacer algo simple.
+
+
+En JavaScript el código es más corto y flexible, no siempre hay que declarar tipos ni estructuras tan estrictas.
+
+
+2. El archivo guardado (.c vs .js)
+El archivo .c no se puede ejecutar directamente.
+
+
+Antes necesita un compilador, que funciona como un traductor de libros, transformando el código en lenguaje máquina.
+
+
+Primero se compila y luego se ejecuta el programa resultante.
+
+
+En cambio:
+El archivo .js sí puede ejecutarse directamente usando un intérprete (por ejemplo, el navegador o Node.js).
+
+
+3. La ejecución (lenguaje interpretado)
+JavaScript es un lenguaje interpretado, lo que significa que:
+Si escribes mal una palabra o hay un error,
+
+
+Te das cuenta en el momento exacto en que el programa intenta ejecutar esa línea, no antes.
+
+
+En cambio, en C:
+Los errores se detectan antes de ejecutar, durante la compilación.
+
+
+4. Observación del código en C
+El código en C no es tan fácil de leer al inicio porque usa palabras reservadas que no son tan intuitivas.
+Por ejemplo:
+#include → sirve para incluir librerías.
+
+
+int → indica que una función o variable devuelve o guarda un número entero.
+
+
+return → devuelve un valor y finaliza la función.
+
+
+Al principio no se entienden todas estas palabras, pero investigándolas se ve que cada una cumple una función muy clara y específica
